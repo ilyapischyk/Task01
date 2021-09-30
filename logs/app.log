@@ -1,0 +1,33 @@
+2021-09-30 22:09:33.727 [main] [INFO ] pischyk.task1.reader.impl.DataReader- Reading file
+2021-09-30 22:09:33.734 [main] [INFO ] pischyk.task1.validator.impl.FileValidator- FileValidator called isValid
+2021-09-30 22:09:33.739 [main] [INFO ] pischyk.task1.validator.impl.StringValidator- FileValidator called isValid
+2021-09-30 22:09:33.740 [main] [INFO ] pischyk.task1.validator.impl.StringValidator- FileValidator called isValid
+2021-09-30 22:09:33.741 [main] [INFO ] pischyk.task1.validator.impl.StringValidator- FileValidator called isValid
+2021-09-30 22:09:33.742 [main] [INFO ] pischyk.task1.parser.impl.StringParser- Parsing string
+2021-09-30 22:09:33.742 [main] [INFO ] pischyk.task1.creater.impl.Creater- Method to create custom array called
+2021-09-30 22:09:33.743 [main] [INFO ] pischyk.task1.service.impl.Changer- Changing numbers
+2021-09-30 22:12:10.731 [main] [INFO ] pischyk.task1.reader.impl.DataReader- Reading file
+2021-09-30 22:12:10.736 [main] [INFO ] pischyk.task1.validator.impl.FileValidator- FileValidator called isValid
+2021-09-30 22:12:10.740 [main] [INFO ] pischyk.task1.validator.impl.StringValidator- FileValidator called isValid
+2021-09-30 22:12:10.741 [main] [INFO ] pischyk.task1.validator.impl.StringValidator- FileValidator called isValid
+2021-09-30 22:12:10.742 [main] [INFO ] pischyk.task1.validator.impl.StringValidator- FileValidator called isValid
+2021-09-30 22:12:10.742 [main] [INFO ] pischyk.task1.parser.impl.StringParser- Parsing string
+2021-09-30 22:12:10.742 [main] [INFO ] pischyk.task1.creater.impl.Creater- Method to create custom array called
+2021-09-30 22:13:22.853 [main] [INFO ] pischyk.task1.reader.impl.DataReader- Reading file
+2021-09-30 22:13:22.859 [main] [INFO ] pischyk.task1.validator.impl.FileValidator- FileValidator called isValid
+2021-09-30 22:13:22.865 [main] [INFO ] pischyk.task1.validator.impl.StringValidator- FileValidator called isValid
+2021-09-30 22:13:22.866 [main] [INFO ] pischyk.task1.validator.impl.StringValidator- FileValidator called isValid
+2021-09-30 22:13:22.866 [main] [INFO ] pischyk.task1.validator.impl.StringValidator- FileValidator called isValid
+2021-09-30 22:13:22.867 [main] [INFO ] pischyk.task1.validator.impl.StringValidator- FileValidator called isValid
+2021-09-30 22:13:22.867 [main] [INFO ] pischyk.task1.parser.impl.StringParser- Parsing string
+2021-09-30 22:13:22.867 [main] [INFO ] pischyk.task1.creater.impl.Creater- Method to create custom array called
+2021-09-30 22:13:43.567 [main] [INFO ] pischyk.task1.reader.impl.DataReader- Reading file
+2021-09-30 22:13:43.572 [main] [INFO ] pischyk.task1.validator.impl.FileValidator- FileValidator called isValid
+2021-09-30 22:13:43.576 [main] [INFO ] pischyk.task1.validator.impl.StringValidator- FileValidator called isValid
+2021-09-30 22:13:43.576 [main] [INFO ] pischyk.task1.parser.impl.StringParser- Parsing string
+2021-09-30 22:13:43.576 [main] [INFO ] pischyk.task1.creater.impl.Creater- Method to create custom array called
+2021-09-30 22:18:59.716 [main] [INFO ] pischyk.task1.reader.impl.DataReader- Reading file
+2021-09-30 22:18:59.722 [main] [INFO ] pischyk.task1.validator.impl.FileValidator- FileValidator called isValid
+2021-09-30 22:18:59.726 [main] [INFO ] pischyk.task1.validator.impl.StringValidator- FileValidator called isValid
+2021-09-30 22:18:59.726 [main] [INFO ] pischyk.task1.parser.impl.StringParser- Parsing string
+2021-09-30 22:18:59.726 [main] [INFO ] pischyk.task1.creater.impl.Creater- Method to create custom array called
