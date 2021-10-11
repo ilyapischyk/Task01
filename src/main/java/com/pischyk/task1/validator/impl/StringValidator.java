@@ -9,7 +9,7 @@ public class StringValidator implements StringValidatorInterface {
     private static final Logger logger = LogManager.getLogger();
 
     public boolean isValid(String str) {
-        logger.info("FileValidator called isValid");
+        logger.info("Validating string");
         if (str.length() == 0) {
             return false;
         }

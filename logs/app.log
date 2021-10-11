@@ -1,33 +1,86 @@
-2021-09-30 22:09:33.727 [main] [INFO ] pischyk.task1.reader.impl.DataReader- Reading file
-2021-09-30 22:09:33.734 [main] [INFO ] pischyk.task1.validator.impl.FileValidator- FileValidator called isValid
-2021-09-30 22:09:33.739 [main] [INFO ] pischyk.task1.validator.impl.StringValidator- FileValidator called isValid
-2021-09-30 22:09:33.740 [main] [INFO ] pischyk.task1.validator.impl.StringValidator- FileValidator called isValid
-2021-09-30 22:09:33.741 [main] [INFO ] pischyk.task1.validator.impl.StringValidator- FileValidator called isValid
-2021-09-30 22:09:33.742 [main] [INFO ] pischyk.task1.parser.impl.StringParser- Parsing string
-2021-09-30 22:09:33.742 [main] [INFO ] pischyk.task1.creater.impl.Creater- Method to create custom array called
-2021-09-30 22:09:33.743 [main] [INFO ] pischyk.task1.service.impl.Changer- Changing numbers
-2021-09-30 22:12:10.731 [main] [INFO ] pischyk.task1.reader.impl.DataReader- Reading file
-2021-09-30 22:12:10.736 [main] [INFO ] pischyk.task1.validator.impl.FileValidator- FileValidator called isValid
-2021-09-30 22:12:10.740 [main] [INFO ] pischyk.task1.validator.impl.StringValidator- FileValidator called isValid
-2021-09-30 22:12:10.741 [main] [INFO ] pischyk.task1.validator.impl.StringValidator- FileValidator called isValid
-2021-09-30 22:12:10.742 [main] [INFO ] pischyk.task1.validator.impl.StringValidator- FileValidator called isValid
-2021-09-30 22:12:10.742 [main] [INFO ] pischyk.task1.parser.impl.StringParser- Parsing string
-2021-09-30 22:12:10.742 [main] [INFO ] pischyk.task1.creater.impl.Creater- Method to create custom array called
-2021-09-30 22:13:22.853 [main] [INFO ] pischyk.task1.reader.impl.DataReader- Reading file
-2021-09-30 22:13:22.859 [main] [INFO ] pischyk.task1.validator.impl.FileValidator- FileValidator called isValid
-2021-09-30 22:13:22.865 [main] [INFO ] pischyk.task1.validator.impl.StringValidator- FileValidator called isValid
-2021-09-30 22:13:22.866 [main] [INFO ] pischyk.task1.validator.impl.StringValidator- FileValidator called isValid
-2021-09-30 22:13:22.866 [main] [INFO ] pischyk.task1.validator.impl.StringValidator- FileValidator called isValid
-2021-09-30 22:13:22.867 [main] [INFO ] pischyk.task1.validator.impl.StringValidator- FileValidator called isValid
-2021-09-30 22:13:22.867 [main] [INFO ] pischyk.task1.parser.impl.StringParser- Parsing string
-2021-09-30 22:13:22.867 [main] [INFO ] pischyk.task1.creater.impl.Creater- Method to create custom array called
-2021-09-30 22:13:43.567 [main] [INFO ] pischyk.task1.reader.impl.DataReader- Reading file
-2021-09-30 22:13:43.572 [main] [INFO ] pischyk.task1.validator.impl.FileValidator- FileValidator called isValid
-2021-09-30 22:13:43.576 [main] [INFO ] pischyk.task1.validator.impl.StringValidator- FileValidator called isValid
-2021-09-30 22:13:43.576 [main] [INFO ] pischyk.task1.parser.impl.StringParser- Parsing string
-2021-09-30 22:13:43.576 [main] [INFO ] pischyk.task1.creater.impl.Creater- Method to create custom array called
-2021-09-30 22:18:59.716 [main] [INFO ] pischyk.task1.reader.impl.DataReader- Reading file
-2021-09-30 22:18:59.722 [main] [INFO ] pischyk.task1.validator.impl.FileValidator- FileValidator called isValid
-2021-09-30 22:18:59.726 [main] [INFO ] pischyk.task1.validator.impl.StringValidator- FileValidator called isValid
-2021-09-30 22:18:59.726 [main] [INFO ] pischyk.task1.parser.impl.StringParser- Parsing string
-2021-09-30 22:18:59.726 [main] [INFO ] pischyk.task1.creater.impl.Creater- Method to create custom array called
+2021-10-11 19:33:44.620 [main] [INFO ] pischyk.task1.reader.impl.DataReader- Method readFile called
+2021-10-11 19:33:44.635 [main] [INFO ] pischyk.task1.validator.impl.FileValidator- FileValidator called isValid
+2021-10-11 19:33:44.636 [main] [INFO ] pischyk.task1.reader.impl.DataReader- Connection with file successful
+2021-10-11 19:33:44.640 [main] [INFO ] pischyk.task1.parser.impl.StringParser- Method parseString called
+2021-10-11 19:33:44.641 [main] [INFO ] pischyk.task1.validator.impl.StringValidator- FileValidator called isValid
+2021-10-11 19:33:44.641 [main] [INFO ] pischyk.task1.creater.impl.Creater- Method to create custom array called
+2021-10-11 20:13:03.925 [main] [INFO ] pischyk.task1.reader.impl.DataReader- Reading file
+2021-10-11 20:13:03.929 [main] [INFO ] pischyk.task1.validator.impl.FileValidator- Validating file
+2021-10-11 20:13:03.930 [main] [INFO ] pischyk.task1.reader.impl.DataReader- Connection with file successful
+2021-10-11 20:13:03.934 [main] [INFO ] pischyk.task1.parser.impl.StringParser- Parsing string
+2021-10-11 20:13:03.935 [main] [INFO ] pischyk.task1.validator.impl.StringValidator- Validating string
+2021-10-11 20:13:03.936 [main] [INFO ] pischyk.task1.creater.impl.Creater- Creating CustomArray
+2021-10-11 20:13:03.937 [main] [ERROR] com.pischyk.task1.Main- com.pischyk.task1.exception.ArrayLenghtException: Array must be not Null
+2021-10-11 20:13:37.020 [main] [INFO ] pischyk.task1.reader.impl.DataReader- Reading file
+2021-10-11 20:13:37.024 [main] [INFO ] pischyk.task1.validator.impl.FileValidator- Validating file
+2021-10-11 20:13:37.025 [main] [INFO ] pischyk.task1.reader.impl.DataReader- Connection with file successful
+2021-10-11 20:13:37.028 [main] [INFO ] pischyk.task1.parser.impl.StringParser- Parsing string
+2021-10-11 20:13:37.029 [main] [INFO ] pischyk.task1.validator.impl.StringValidator- Validating string
+2021-10-11 20:13:37.030 [main] [INFO ] pischyk.task1.creater.impl.Creater- Creating CustomArray
+2021-10-11 20:13:37.030 [main] [ERROR] com.pischyk.task1.Main- com.pischyk.task1.exception.ArrayLenghtException: Array must be not Null
+2021-10-11 20:13:47.281 [main] [INFO ] pischyk.task1.reader.impl.DataReader- Reading file
+2021-10-11 20:13:47.287 [main] [INFO ] pischyk.task1.validator.impl.FileValidator- Validating file
+2021-10-11 20:13:47.288 [main] [INFO ] pischyk.task1.reader.impl.DataReader- Connection with file successful
+2021-10-11 20:13:47.291 [main] [INFO ] pischyk.task1.parser.impl.StringParser- Parsing string
+2021-10-11 20:13:47.293 [main] [INFO ] pischyk.task1.validator.impl.StringValidator- Validating string
+2021-10-11 20:13:47.293 [main] [INFO ] pischyk.task1.creater.impl.Creater- Creating CustomArray
+2021-10-11 20:13:47.294 [main] [ERROR] com.pischyk.task1.Main- com.pischyk.task1.exception.ArrayLenghtException: Array must be not Null
+2021-10-11 20:14:45.707 [main] [INFO ] pischyk.task1.reader.impl.DataReader- Reading file
+2021-10-11 20:14:45.710 [main] [INFO ] pischyk.task1.validator.impl.FileValidator- Validating file
+2021-10-11 20:14:45.710 [main] [INFO ] pischyk.task1.reader.impl.DataReader- Connection with file successful
+2021-10-11 20:14:45.715 [main] [INFO ] pischyk.task1.parser.impl.StringParser- Parsing string
+2021-10-11 20:14:45.717 [main] [INFO ] pischyk.task1.validator.impl.StringValidator- Validating string
+2021-10-11 20:14:45.717 [main] [INFO ] pischyk.task1.creater.impl.Creater- Creating CustomArray
+2021-10-11 20:14:45.718 [main] [ERROR] com.pischyk.task1.Main- com.pischyk.task1.exception.ArrayLenghtException: Array must be not Null
+2021-10-11 20:15:27.922 [main] [INFO ] pischyk.task1.reader.impl.DataReader- Reading file
+2021-10-11 20:15:27.923 [main] [INFO ] pischyk.task1.validator.impl.FileValidator- Validating file
+2021-10-11 20:15:27.926 [main] [INFO ] pischyk.task1.reader.impl.DataReader- Connection with file successful
+2021-10-11 20:15:27.931 [main] [INFO ] pischyk.task1.parser.impl.StringParser- Parsing string
+2021-10-11 20:15:27.932 [main] [INFO ] pischyk.task1.validator.impl.StringValidator- Validating string
+2021-10-11 20:15:27.933 [main] [INFO ] pischyk.task1.validator.impl.StringValidator- Validating string
+2021-10-11 20:15:27.933 [main] [INFO ] pischyk.task1.creater.impl.Creater- Creating CustomArray
+2021-10-11 20:15:27.934 [main] [ERROR] com.pischyk.task1.Main- com.pischyk.task1.exception.ArrayLenghtException: Array must be not Null
+2021-10-11 20:15:38.219 [main] [INFO ] pischyk.task1.reader.impl.DataReader- Reading file
+2021-10-11 20:15:38.222 [main] [INFO ] pischyk.task1.validator.impl.FileValidator- Validating file
+2021-10-11 20:15:38.222 [main] [INFO ] pischyk.task1.reader.impl.DataReader- Connection with file successful
+2021-10-11 20:15:38.226 [main] [INFO ] pischyk.task1.parser.impl.StringParser- Parsing string
+2021-10-11 20:15:38.228 [main] [INFO ] pischyk.task1.validator.impl.StringValidator- Validating string
+2021-10-11 20:15:38.228 [main] [INFO ] pischyk.task1.validator.impl.StringValidator- Validating string
+2021-10-11 20:15:38.228 [main] [INFO ] pischyk.task1.creater.impl.Creater- Creating CustomArray
+2021-10-11 20:15:38.229 [main] [ERROR] com.pischyk.task1.Main- com.pischyk.task1.exception.ArrayLenghtException: Array must be not Null
+2021-10-11 20:29:48.886 [main] [INFO ] pischyk.task1.service.impl.Calculator- Finding average of elements
+2021-10-11 20:29:48.889 [main] [INFO ] pischyk.task1.service.impl.Calculator- Finding sum of elements
+2021-10-11 20:29:48.892 [main] [INFO ] pischyk.task1.service.impl.Calculator- Finding average of elements
+2021-10-11 20:29:48.892 [main] [INFO ] pischyk.task1.service.impl.Calculator- Finding sum of elements
+2021-10-11 20:29:48.893 [main] [INFO ] pischyk.task1.service.impl.Calculator- Finding sum of elements
+2021-10-11 20:29:55.982 [main] [INFO ] pischyk.task1.service.impl.Changer- Changing numbers
+2021-10-11 20:29:55.990 [main] [INFO ] pischyk.task1.service.impl.Changer- Changing numbers
+2021-10-11 20:29:55.990 [main] [ERROR] pischyk.task1.service.impl.Changer- Incorrect condition
+2021-10-11 20:29:55.991 [main] [INFO ] pischyk.task1.service.impl.Changer- Changing numbers
+2021-10-11 20:30:02.335 [main] [INFO ] pischyk.task1.service.impl.Finder- Finding maximum of array
+2021-10-11 20:30:02.343 [main] [INFO ] pischyk.task1.service.impl.Finder- Finding minimum of array
+2021-10-11 20:30:02.344 [main] [INFO ] pischyk.task1.service.impl.Finder- Finding count of negative numbers
+2021-10-11 20:30:02.344 [main] [INFO ] pischyk.task1.service.impl.Finder- Finding maximum of array
+2021-10-11 20:30:02.347 [main] [INFO ] pischyk.task1.service.impl.Finder- Finding minimum of array
+2021-10-11 20:30:02.348 [main] [INFO ] pischyk.task1.service.impl.Finder- Finding count of negative numbers
+2021-10-11 20:30:02.350 [main] [INFO ] pischyk.task1.service.impl.Finder- Finding count of positive numbers
+2021-10-11 20:30:02.351 [main] [INFO ] pischyk.task1.service.impl.Finder- Finding count of negative numbers
+2021-10-11 20:30:07.566 [main] [INFO ] pischyk.task1.service.impl.Sorter- Bubble method sorting
+2021-10-11 20:30:07.575 [main] [INFO ] pischyk.task1.service.impl.Sorter- Bubble method sorting
+2021-10-11 20:30:07.576 [main] [INFO ] pischyk.task1.service.impl.Sorter- insertion method sorting
+2021-10-11 20:30:07.577 [main] [INFO ] pischyk.task1.service.impl.Sorter- Shell method sorting
+2021-10-11 20:30:07.580 [main] [INFO ] pischyk.task1.service.impl.Sorter- insertion method sorting
+2021-10-11 20:30:07.592 [main] [INFO ] pischyk.task1.service.impl.Sorter- Shell method sorting
+2021-10-11 20:31:15.755 [main] [INFO ] pischyk.task1.service.impl.Sorter- Bubble method sorting
+2021-10-11 20:31:15.762 [main] [INFO ] pischyk.task1.service.impl.Sorter- insertion method sorting
+2021-10-11 20:31:15.769 [main] [INFO ] pischyk.task1.service.impl.Sorter- Bubble method sorting
+2021-10-11 20:31:15.770 [main] [INFO ] pischyk.task1.service.impl.Sorter- insertion method sorting
+2021-10-11 20:31:15.771 [main] [INFO ] pischyk.task1.service.impl.Sorter- Shell method sorting
+2021-10-11 20:31:15.772 [main] [INFO ] pischyk.task1.service.impl.Sorter- Shell method sorting
+2021-10-11 20:33:47.765 [main] [INFO ] pischyk.task1.service.impl.Sorter- Bubble method sorting
+2021-10-11 20:33:47.771 [main] [INFO ] pischyk.task1.service.impl.Sorter- insertion method sorting
+2021-10-11 20:33:47.777 [main] [INFO ] pischyk.task1.service.impl.Sorter- Bubble method sorting
+2021-10-11 20:33:47.781 [main] [INFO ] pischyk.task1.service.impl.Sorter- insertion method sorting
+2021-10-11 20:33:47.782 [main] [INFO ] pischyk.task1.service.impl.Sorter- Shell method sorting
+2021-10-11 20:33:47.783 [main] [INFO ] pischyk.task1.service.impl.Sorter- Shell method sorting
+2021-10-11 20:42:43.670 [main] [INFO ] pischyk.task1.service.impl.Sorter- insertion method sorting

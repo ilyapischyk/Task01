@@ -11,10 +11,13 @@ public class Creater implements CreaterInterface {
 
 
     public CustomArray createCustomArray(int[] someArray) throws ArrayLenghtException {
-        logger.info("Method to create custom array called");
-        if (someArray == null) throw new ArrayLenghtException("Array must be not Null");
-        CustomArray customArray = new CustomArray();
-        customArray.setArray(someArray);
-        return customArray;
+        logger.info("Creating CustomArray");
+        if (someArray == null) {
+            throw new ArrayLenghtException("Array must be not Null");
+        } else {
+            CustomArray customArray = new CustomArray();
+            customArray.setArray(someArray);
+            return customArray;
+        }
     }
 }

@@ -11,7 +11,7 @@ public class FileValidator implements FileValidatorInterface {
 
     @Override
     public boolean isValid(File file) {
-        logger.info("FileValidator called isValid");
+        logger.info("Validating file");
         boolean flag = false;
         if (file.exists()) {
             if (file.length() > 0) {
