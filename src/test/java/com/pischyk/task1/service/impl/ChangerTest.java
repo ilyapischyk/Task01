@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 import static org.testng.Assert.*;
 
 public class ChangerTest {
-    Changer changer = new Changer();
+    ChangerImpl changer = new ChangerImpl();
 
     @Test
     public void changeTest() throws ArrayLenghtException, IncorrectConditionException {

@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import static org.testng.Assert.*;
 
 public class FinderTest {
-    Finder finder = new Finder();
+    FinderImpl finder = new FinderImpl();
 
     @Test
     public void minArrayTest() throws ArrayLenghtException {

@@ -3,13 +3,13 @@ package com.pischyk.task1.service.impl;
 import com.pischyk.task1.entity.CustomArray;
 import com.pischyk.task1.exception.ArrayLenghtException;
 import com.pischyk.task1.exception.IncorrectConditionException;
-import com.pischyk.task1.service.ChangeInterface;
+import com.pischyk.task1.service.Change;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.util.Arrays;
 
-public class StreamChanger implements ChangeInterface {
+public class StreamChangerImpl implements Change {
     private final static Logger logger = LogManager.getLogger();
     private String[] arrayOfCondition = new String[]{">", "<", "=", "!=", "<=", ">="};
 

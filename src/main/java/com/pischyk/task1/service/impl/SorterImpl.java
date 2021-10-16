@@ -2,11 +2,10 @@ package com.pischyk.task1.service.impl;
 
 import com.pischyk.task1.entity.CustomArray;
 import com.pischyk.task1.exception.ArrayLenghtException;
-import com.pischyk.task1.service.SorterInterface;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-public class Sorter implements SorterInterface {
+public class SorterImpl implements com.pischyk.task1.service.Sorter {
     final static Logger logger = LogManager.getLogger();
 
     public void bubbleSort(CustomArray customArray) throws ArrayLenghtException {

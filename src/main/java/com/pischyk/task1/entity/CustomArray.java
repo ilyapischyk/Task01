@@ -11,7 +11,9 @@ public class CustomArray {
     }
 
     public CustomArray(int... array) throws ArrayLenghtException {
-        if (array.length < 1) throw new ArrayLenghtException("Array  must be 1 or more.");
+        if (array.length < 1) {
+            throw new ArrayLenghtException("Array  must be 1 or more.");
+        }
         this.array = array;
     }
 

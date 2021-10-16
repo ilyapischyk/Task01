@@ -1,11 +1,11 @@
 package com.pischyk.task1;
 
-import com.pischyk.task1.creater.impl.Creater;
+import com.pischyk.task1.creater.impl.CreaterImpl;
 import com.pischyk.task1.entity.CustomArray;
 import com.pischyk.task1.exception.ArrayLenghtException;
 import com.pischyk.task1.exception.IncorrectConditionException;
-import com.pischyk.task1.parser.impl.StringParser;
-import com.pischyk.task1.reader.impl.DataReader;
+import com.pischyk.task1.parser.impl.StringParserImpl;
+import com.pischyk.task1.reader.impl.DataReaderImpl;
 import com.pischyk.task1.service.impl.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -14,16 +14,16 @@ public class Main {
     private static final Logger logger = LogManager.getLogger();
 
     public static void main(String[] args) {
-        DataReader dataReader = new DataReader();
-        StringParser stringParser = new StringParser();
-        Creater creater = new Creater();
-        Calculator calculator = new Calculator();
-        Changer changer = new Changer();
-        Finder finder = new Finder();
-        Sorter sorter = new Sorter();
-        StreamCalculator streamCalculator = new StreamCalculator();
-        StreamChanger streamChanger = new StreamChanger();
-        StreamFinder streamFinder = new StreamFinder();
+        DataReaderImpl dataReader = new DataReaderImpl();
+        StringParserImpl stringParser = new StringParserImpl();
+        CreaterImpl creater = new CreaterImpl();
+        CalculatorImpl calculator = new CalculatorImpl();
+        ChangerImpl changer = new ChangerImpl();
+        FinderImpl finder = new FinderImpl();
+        SorterImpl sorter = new SorterImpl();
+        StreamCalculatorImpl streamCalculator = new StreamCalculatorImpl();
+        StreamChangerImpl streamChanger = new StreamChangerImpl();
+        StreamFinderImpl streamFinder = new StreamFinderImpl();
         CustomArray customArray = new CustomArray();
 
         try {

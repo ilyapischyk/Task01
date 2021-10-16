@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import static org.testng.Assert.*;
 
 public class CalculatorTest {
-    Calculator calculator = new Calculator();
+    CalculatorImpl calculator = new CalculatorImpl();
 
     @Test
     public void sumElementsOfArrayTest() throws ArrayLenghtException {

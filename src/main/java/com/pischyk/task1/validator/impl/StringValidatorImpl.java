@@ -1,10 +1,9 @@
 package com.pischyk.task1.validator.impl;
 
-import com.pischyk.task1.validator.StringValidatorInterface;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-public class StringValidator implements StringValidatorInterface {
+public class StringValidatorImpl implements com.pischyk.task1.validator.StringValidator {
 
     private static final Logger logger = LogManager.getLogger();
 

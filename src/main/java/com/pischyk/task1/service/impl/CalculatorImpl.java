@@ -2,11 +2,10 @@ package com.pischyk.task1.service.impl;
 
 import com.pischyk.task1.entity.CustomArray;
 import com.pischyk.task1.exception.ArrayLenghtException;
-import com.pischyk.task1.service.CalculatorInterface;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-public class Calculator implements CalculatorInterface {
+public class CalculatorImpl implements com.pischyk.task1.service.Calculator {
     final static Logger logger = LogManager.getLogger();
 
     public int sumElementsOfArray(CustomArray customArray)throws ArrayLenghtException{

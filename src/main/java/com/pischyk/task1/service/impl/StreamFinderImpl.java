@@ -2,13 +2,13 @@ package com.pischyk.task1.service.impl;
 
 import com.pischyk.task1.entity.CustomArray;
 import com.pischyk.task1.exception.ArrayLenghtException;
-import com.pischyk.task1.service.FinderInterface;
+import com.pischyk.task1.service.Finder;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.util.Arrays;
 
-public class StreamFinder implements FinderInterface {
+public class StreamFinderImpl implements Finder {
     private static final Logger logger = LogManager.getLogger();
 
     @Override

@@ -2,11 +2,10 @@ package com.pischyk.task1.service.impl;
 
 import com.pischyk.task1.entity.CustomArray;
 import com.pischyk.task1.exception.ArrayLenghtException;
-import com.pischyk.task1.service.FinderInterface;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-public class Finder implements FinderInterface {
+public class FinderImpl implements com.pischyk.task1.service.Finder {
     final static Logger logger = LogManager.getLogger();
 
     public int arrayMin(CustomArray customArray) throws ArrayLenghtException {

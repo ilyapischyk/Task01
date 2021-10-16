@@ -3,11 +3,11 @@ package com.pischyk.task1.service.impl;
 import com.pischyk.task1.entity.CustomArray;
 import com.pischyk.task1.exception.ArrayLenghtException;
 import com.pischyk.task1.exception.IncorrectConditionException;
-import com.pischyk.task1.service.ChangeInterface;
+import com.pischyk.task1.service.Change;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-public class Changer implements ChangeInterface {
+public class ChangerImpl implements Change {
     final static Logger logger = LogManager.getLogger();
 
     public void changeElements(CustomArray customArray, String condition, int whatChange, int ch) throws ArrayLenghtException, IncorrectConditionException {

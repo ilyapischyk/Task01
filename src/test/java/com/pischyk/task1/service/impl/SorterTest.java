@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import static org.testng.Assert.*;
 
 public class SorterTest {
-    Sorter sorter = new Sorter();
+    SorterImpl sorter = new SorterImpl();
     private final int[] expectedArray = {-5, 0, 1, 2, 3, 6};
 
     @Test

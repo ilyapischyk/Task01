@@ -84,3 +84,27 @@
 2021-10-11 20:33:47.782 [main] [INFO ] pischyk.task1.service.impl.Sorter- Shell method sorting
 2021-10-11 20:33:47.783 [main] [INFO ] pischyk.task1.service.impl.Sorter- Shell method sorting
 2021-10-11 20:42:43.670 [main] [INFO ] pischyk.task1.service.impl.Sorter- insertion method sorting
+2021-10-11 20:46:19.305 [main] [INFO ] pischyk.task1.service.impl.Sorter- Bubble method sorting
+2021-10-11 20:46:19.316 [main] [INFO ] pischyk.task1.service.impl.Sorter- insertion method sorting
+2021-10-11 20:46:19.328 [main] [INFO ] pischyk.task1.service.impl.Sorter- Bubble method sorting
+2021-10-11 20:46:19.330 [main] [INFO ] pischyk.task1.service.impl.Sorter- insertion method sorting
+2021-10-11 20:46:19.331 [main] [INFO ] pischyk.task1.service.impl.Sorter- Shell method sorting
+2021-10-11 20:46:19.333 [main] [INFO ] pischyk.task1.service.impl.Sorter- Shell method sorting
+2021-10-11 20:47:10.435 [main] [INFO ] pischyk.task1.service.impl.Sorter- Bubble method sorting
+2021-10-11 20:47:10.443 [main] [INFO ] pischyk.task1.service.impl.Sorter- insertion method sorting
+2021-10-11 20:47:10.451 [main] [INFO ] pischyk.task1.service.impl.Sorter- Bubble method sorting
+2021-10-11 20:47:10.452 [main] [INFO ] pischyk.task1.service.impl.Sorter- insertion method sorting
+2021-10-11 20:47:10.453 [main] [INFO ] pischyk.task1.service.impl.Sorter- Shell method sorting
+2021-10-11 20:47:10.455 [main] [INFO ] pischyk.task1.service.impl.Sorter- Shell method sorting
+2021-10-11 20:47:38.884 [main] [INFO ] pischyk.task1.service.impl.Sorter- insertion method sorting
+2021-10-11 20:47:43.171 [main] [INFO ] pischyk.task1.service.impl.Sorter- insertion method sorting
+2021-10-11 20:50:43.918 [main] [INFO ] pischyk.task1.reader.impl.DataReader- Reading file
+2021-10-11 20:50:43.920 [main] [INFO ] pischyk.task1.validator.impl.FileValidator- Validating file
+2021-10-11 20:50:43.920 [main] [INFO ] pischyk.task1.reader.impl.DataReader- Connection with file successful
+2021-10-11 20:50:43.926 [main] [INFO ] pischyk.task1.parser.impl.StringParser- Parsing string
+2021-10-11 20:50:43.927 [main] [INFO ] pischyk.task1.validator.impl.StringValidator- Validating string
+2021-10-11 20:50:43.927 [main] [INFO ] pischyk.task1.validator.impl.StringValidator- Validating string
+2021-10-11 20:50:43.927 [main] [INFO ] pischyk.task1.validator.impl.StringValidator- Validating string
+2021-10-11 20:50:43.928 [main] [INFO ] pischyk.task1.validator.impl.StringValidator- Validating string
+2021-10-11 20:50:43.928 [main] [INFO ] pischyk.task1.creater.impl.Creater- Creating CustomArray
+2021-10-11 20:50:43.928 [main] [ERROR] com.pischyk.task1.Main- com.pischyk.task1.exception.ArrayLenghtException: Array must be not Null
